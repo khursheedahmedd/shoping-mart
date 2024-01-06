@@ -1,0 +1,35 @@
+.cart-card {
+  border-bottom: 1px solid #dadada;
+  margin-top: 20px;
+}
+.checkout-btn {
+  background-color: #800080;
+  color: #ffffff;
+}
+.checkout-btn:hover {
+  background-color: #6d016d;
+}
+.coupon-input {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #dadada;
+  padding: 7px 8px;
+}
+
+@media (max-width: 400px) {
+  .cart-card {
+    height: 200px !important;
+  }
+  .btns-container {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+  .btns-container button {
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important;
+  }
+  .amount-btn {
+    margin-right: 0.7rem !important;
+    margin-left: 0.7rem !important;
+  }
+}
