@@ -23,7 +23,7 @@ export const Navbar: React.FC<Props> = ({ openCart, cartCount, cart }) => {
   return (
     <div className="navbar-container full-width-screen">
       <div className="container mx-auto px-5 full-height flex j-between items-center">
-        <h1 className="color-main fw-medium fs-md logo">Tap House</h1>
+        <h1 className="color-main fw-medium fs-md logo">Shopping Mart</h1>
 
         {/* <div className="flex width-1-3 j-between fs-sm fw-semibold uppercase navbar-category">
           <form className="full-width flex">
