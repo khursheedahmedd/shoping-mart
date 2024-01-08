@@ -25,7 +25,7 @@ export const Login: React.FC<{}> = () => {
       <div className="center height-3-4">
         <div>
           <div className="mb-5">
-            <h2>Welcome to Tap House</h2>
+            <h2>Welcome to Shopping Mart</h2>
             <p className="fs-xs color-gray">
               Register your name to start shopping
             </p>
